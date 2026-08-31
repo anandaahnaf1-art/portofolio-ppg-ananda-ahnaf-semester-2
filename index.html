@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200">
+    <title>E-Portofolio PPG Calon Guru</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>E-Portofolio PPG</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Beranda</a></li>
+                <li><a href="#profile" class="nav-link">Profil</a></li>
+                <li><a href="#portfolio" class="nav-link">Portofolio</a></li>
+                <li><a href="#achievements" class="nav-link">Prestasi</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-pattern"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span>🏆 PPG Calon Guru 2026</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-highlight">Ananda Ahnaf, S.Pd.</span>
+                </h1>
+                <p class="hero-subtitle">Calon Guru Profesional Pendidikan Jasmani & Olahraga</p>
+                <div class="hero-description">
+                    <p>Dedikasi tinggi untuk mengembangkan potensi siswa melalui pendidikan jasmani yang berkualitas dan inspiratif</p>
+                </div>
+                
+                                
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary btn-luxury">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Lihat Portofolio</span>
+                    </a>
+                    <a href="https://wa.me/6285800692984?text=Halo%20saya%20tertarik%20dengan%20portfolio%20Anda" 
+                       class="btn btn-secondary btn-luxury" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Hubungi via WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-frame">
+                    <div class="profile-img" onclick="openProfilePopup()">
+                        <img src="./profile-latest.jpg" alt="Profile" class="profile-photo">
+                        <div class="profile-overlay"></div>
+                        <div class="profile-click-hint">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Lihat Foto</span>
+                        </div>
+                    </div>
+                    <div class="profile-info-card">
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>PPG Calon Guru</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-university"></i>
+                            <span>UMS Surakarta</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-running"></i>
+                            <span>Pendidikan Jasmani</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile" class="profile">
+        <div class="container">
+            <h2 class="section-title">Profil Saya</h2>
+
+            <!-- Personal Photo Gallery -->
+            <div class="personal-gallery-wrapper">
+                <div class="gallery-container">
+                    <div class="gallery-item main-photo">
+                        <img src="foto-terbaru.jpg" alt="Foto Profil Utama">
+                        <div class="gallery-overlay">
+                            <h3>Ananda Ahnaf</h3>
+                            <p>Calon Guru Profesional</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="foto-terbaru-2.jpg" alt="Aktivitas Lari">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="foto-terbaru-3.jpg" alt="Aktivitas Sepak Bola">
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-grid">
+                <div class="profile-card">
+                    <h3 class="card-title">Tentang Saya</h3>
+                    <div class="about-content">
+                        <p>Sejak kecil, saya tumbuh dengan semangat yang tak pernah lepas dari dunia olahraga. Aktivitas fisik bukan sekadar hobi bagi saya, melainkan telah menjadi bagian dari kehidupan sehari-hari yang membentuk karakter, disiplin, dan cara berpikir saya.</p>
+                        
+                        <p>Kini, sebagai mahasiswa PPG Calon Guru, saya membawa semangat itu ke jenjang yang lebih tinggi. Saya tidak hanya ingin menjadi seseorang yang mahir dalam bidang olahraga, tetapi juga bertekad menjadi guru profesional yang mampu menginspirasi peserta didik. Bagi saya, olahraga bukan hanya tentang fisik, melainkan juga tentang membangun nilai-nilai seperti kerja sama, sportivitas, dan ketekunan.</p>
+                        
+                        <p>Dengan bekal pengalaman dan kecintaan saya terhadap olahraga sejak dini, saya ingin menghadirkan pembelajaran yang aktif, menyenangkan, dan Bermakna. Saya percaya bahwa setiap peserta didik memiliki potensi yang bisa dikembangkan, dan melalui pendidikan jasmani yang tepat, mereka dapat tumbuh menjadi pribadi yang sehat, percaya diri, dan berkarakter kuat. Inilah yang menjadi motivasi utama saya untuk terus belajar, berkembang, dan mewujudkan cita-cita sebagai guru profesional di bidang olahraga.</p>
+                        
+                        <!-- WhatsApp Contact Button -->
+                        <div class="contact-section">
+                            <h4>Hubungi Saya</h4>
+                            <a href="https://wa.me/6285800692984?text=Halo%20saya%20tertarik%20dengan%20portfolio%20Anda" 
+                               class="whatsapp-contact-btn" 
+                               target="_blank" 
+                               rel="noopener noreferrer">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>Hubungi via WhatsApp</span>
+                            </a>
+                            <p class="contact-info">
+                                <i class="fas fa-envelope"></i> <span class="contact-info-text">peserta.44549@ppg.belajar.id</span><br>
+                                <i class="fas fa-phone"></i> <span class="contact-info-text">+62 858-0069-2984</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="profile-card">
+                    <h3 class="card-title">Asal Saya</h3>
+                    <div class="origin-content">
+                        <div class="origin-icon" style="font-size: 3rem; color: var(--accent-color); margin-bottom: 1.5rem;">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <h4 style="color: white; font-size: 1.5rem; margin-bottom: 1rem; font-weight: 600;">Brebes, Jawa Tengah</h4>
+                        <p style="color: white; opacity: 0.9; line-height: 1.7; font-size: 0.95rem; margin-bottom: 1.2rem; font-weight: 500;">
+                            Berasal dari daerah Brebes, Jawa Tengah, saya terbiasa dengan lingkungan yang mendukung saya untuk tumbuh menjadi pribadi yang tangguh dan selalu aktif.
+                        </p>
+                        <p style="color: white; opacity: 0.9; line-height: 1.7; font-size: 0.95rem; font-weight: 500;">
+                            Semangat pantang menyerah khas masyarakat daerah asal saya selalu tertanam kuat dalam diri. Hal ini turut membentuk mentalitas saya dalam menghadapi tantangan, baik di dunia pendidikan maupun saat beraktivitas di lapangan, dan terus mendorong saya untuk berkembang melalui berbagai kegiatan olahraga.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Artefak</h2>
+            <div class="portfolio-grid">
+                        <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-football-ball"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Pembelajaran Olahraga</h3>
+                        <p>Dokumentasi kegiatan mengajar pendidikan jasmani dan olahraga yang telah saya lakukan selama PPL.</p>
+                        
+                        <div class="video-section">
+                            <h4>Video Pembelajaran</h4>
+                            <div class="video-slider">
+                                <div class="video-slide active">
+                                    <div class="video-container">
+                                        <video controls poster="video-pembelajaran/thumbnails/thumbnail-senam-aerobik.jpg" onclick="openVideoFullscreen('video-pembelajaran/video-senam-aerobik.mp4', 'Video Pembelajaran')">
+                                            <source src="video-pembelajaran/video-senam-aerobik.mp4" type="video/mp4">
+                                            Browser Anda tidak mendukung video tag.
+                                        </video>
+                                        <div class="video-info">
+                                            <h5>Video Pembelajaran</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-tags">
+                            <span>Olahraga</span>
+                            <span>Penjas</span>
+                            <span>Pembelajaran</span>
+                            <span>Video</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Foto Pembelajaran</h3>
+                        <p>Dokumentasi foto kegiatan pembelajaran olahraga dan praktik mengajar selama PPL.</p>
+                        
+                        <div class="photo-gallery">
+                            <div class="gallery-slider">
+                                <div class="gallery-slide active">
+                                    <img src="WhatsApp Image 2026-05-04 at 07.50.36.jpeg" alt="Foto Pembelajaran 1" onclick="openFullscreen(this.src, this.alt)">
+                                    <div class="fullscreen-btn" onclick="openFullscreen('WhatsApp Image 2026-05-04 at 07.50.36.jpeg', 'Foto Pembelajaran 1')">
+                                        <i class="fas fa-expand"></i>
+                                    </div>
+                                    <div class="slide-caption">
+                                        <h5>Sesi Pembelajaran Olahraga Dasar</h5>
+                                        <p>Kegiatan praktik mengajar dengan siswa kelas X</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="gallery-slide">
+                                    <img src="WhatsApp Image 2026-05-04 at 07.50.51.jpeg" alt="Foto Pembelajaran 2" onclick="openFullscreen(this.src, this.alt)">
+                                    <div class="fullscreen-btn" onclick="openFullscreen('WhatsApp Image 2026-05-04 at 07.50.51.jpeg', 'Foto Pembelajaran 2')">
+                                        <i class="fas fa-expand"></i>
+                                    </div>
+                                    <div class="slide-caption">
+                                        <h5>Demonstrasi Teknik Olahraga</h5>
+                                        <p>Praktik pembelajaran teknik dasar olahraga</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="gallery-slide">
+                                    <img src="WhatsApp Image 2026-05-11 at 17.25.55.jpeg" alt="Demonstrasi Teknik Olahraga" onclick="openFullscreen(this.src, this.alt)">
+                                    <div class="fullscreen-btn" onclick="openFullscreen('WhatsApp Image 2026-05-11 at 17.25.55.jpeg', 'Demonstrasi Teknik Olahraga')">
+                                        <i class="fas fa-expand"></i>
+                                    </div>
+                                    <div class="slide-caption">
+                                        <h5>Demonstrasi Teknik Olahraga</h5>
+                                        <p>Praktik pembelajaran teknik dasar olahraga</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Fullscreen Modal -->
+                            <div id="fullscreenModal" class="fullscreen-modal">
+                                <span class="close-fullscreen" onclick="closeFullscreen()">&times;</span>
+                                <button class="fullscreen-nav prev-fullscreen" onclick="navigateFullscreen(-1)">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+                                <button class="fullscreen-nav next-fullscreen" onclick="navigateFullscreen(1)">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                                <img class="fullscreen-content" id="fullscreenImg">
+                                <div id="fullscreenCaption"></div>
+                            </div>
+                            </div>
+                            
+                            <div class="gallery-controls">
+                                <button class="gallery-btn prev-btn" onclick="changeGallerySlide(-1)">
+                                    <i class="fas fa-chevron-left"></i>
+                                </button>
+                                <div class="gallery-indicators">
+                                    <span class="indicator active" onclick="goToGallerySlide(0)"></span>
+                                    <span class="indicator" onclick="goToGallerySlide(1)"></span>
+                                    <span class="indicator" onclick="goToGallerySlide(2)"></span>
+                                </div>
+                                <button class="gallery-btn next-btn" onclick="changeGallerySlide(1)">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-tags">
+                            <span>Foto</span>
+                            <span>Pembelajaran</span>
+                            <span>Dokumentasi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Perangkat Pembelajaran Penjas</h3>
+                        <p>Kumpulan RPP, silabus, dan perangkat pembelajaran pendidikan jasmani yang telah saya buat.</p>
+                        <div class="modul-ajar-slider">
+                            <div class="modul-ajar-slide active">
+                                <div class="modul-ajar-container">
+                                    <div class="modul-ajar-preview" onclick="openModulAjarPreview('modul-ajar/modul-ajar-bola-basket.pdf', 'Modul Ajar Bola Basket')">
+                                        <i class="fas fa-file-pdf"></i>
+                                        <h5>Modul Ajar Bola Basket</h5>
+                                        <p>Klik untuk preview</p>
+                                    </div>
+                                    <a href="modul-ajar/modul-ajar-bola-basket.pdf" class="download-link" download>
+                                        <i class="fas fa-download"></i>
+                                        <span>Download</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span>RPP</span>
+                            <span>Penjas</span>
+                            <span>Silabus</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Refleksi Pembelajaran</h3>
+                        <p>Analisis mendalam tentang proses pembelajaran dan faktor-faktor yang mempengaruhi keberhasilan.</p>
+                        
+                        <div class="reflection-columns">
+                            <div class="reflection-column">
+                                <div class="reflection-column-header">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                    <h4>Kendala Penyusunan</h4>
+                                </div>
+                                <div class="reflection-column-content">
+                                    <ul>
+                                        <li>Perbedaan tingkat kemampuan siswa</li>
+                                        <li>Siswa cenderung kurang antusias jika pembelajaran hanya berupa latihan fisik biasa</li>
+                                        <li>Materi kebugaran sering dianggap melelahkan dan membosankan</li>
+                                        <li>Keterbatasan waktu dalam mengemas pembelajaran agar tetap menarik dan efektif</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="reflection-column">
+                                <div class="reflection-column-header">
+                                    <i class="fas fa-book"></i>
+                                    <h4>Landasan Pedagogik</h4>
+                                </div>
+                                <div class="reflection-column-content">
+                                    <ul>
+                                        <li>Pendekatan Joyful Learning</li>
+                                        <li>Modifikasi Permainan</li>
+                                        <li>Ice Breaking dalam Pembelajaran</li>
+                                        <li>Learning by Doing</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="reflection-column">
+                                <div class="reflection-column-header">
+                                    <i class="fas fa-check-circle"></i>
+                                    <h4>Faktor Keberhasilan</h4>
+                                </div>
+                                <div class="reflection-column-content">
+                                    <ul>
+                                        <li>Penggunaan modifikasi permainan membuat siswa lebih aktif dan tidak mudah bosan</li>
+                                        <li>Adanya ice breaking membantu meningkatkan semangat dan perhatian siswa</li>
+                                        <li>Suasana pembelajaran menjadi lebih santai namun tetap terarah</li>
+                                        <li>Siswa merasa lebih nyaman sehingga berani mencoba dan tidak takut salah</li>
+                                        <li>Partisipasi siswa meningkat dibanding pembelajaran yang bersifat latihan biasa</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="reflection-column">
+                                <div class="reflection-column-header">
+                                    <i class="fas fa-sync-alt"></i>
+                                    <h4>Adaptasi Konteks</h4>
+                                </div>
+                                <div class="reflection-column-content">
+                                    <ul>
+                                        <li>Aktivitas latihan diubah menjadi bentuk permainan sederhana</li>
+                                        <li>Intensitas latihan disesuaikan secara alami melalui permainan</li>
+                                        <li>Ice breaking disisipkan di tengah pembelajaran saat siswa mulai lelah</li>
+                                        <li>Guru memberikan motivasi secara langsung untuk menjaga semangat siswa</li>
+                                        <li>Pembelajaran dibuat fleksibel mengikuti kondisi lapangan dan siswa</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="teacher-vision-box">
+                            <h4>Model Guru yang Dituju</h4>
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>Saya ingin menjadi sosok guru yang energik, humoris, dan mampu menciptakan suasana pembelajaran yang menyenangkan sehingga murid merasa nyaman dan semangat dalam belajar. Saya berkomitmen untuk merangkul semua kalangan tanpa memandang latar belakang maupun status apa pun, karena bagi saya setiap murid memiliki hak yang sama untuk berkembang. Dalam proses pembelajaran, saya berfokus pada kegiatan belajar yang aktif, interaktif, dan bermakna agar murid tidak hanya memahami materi, tetapi juga mampu membangun rasa percaya diri, kerja sama, serta karakter positif dalam kehidupan sehari-hari.</p>
+                        </div>
+                        
+                        <div class="portfolio-tags">
+                            <span>Refleksi</span>
+                            <span>Analisis</span>
+                            <span>Pembelajaran</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Reflection Section -->
+    <section id="reflection" class="reflection">
+        <div class="container">
+                        <h2 class="section-title">Refleksi Pembelajaran</h2>
+            <div class="reflection-slider">
+                <div class="slide-container">
+                    <div class="slide active">
+                        <div class="slide-header">
+                            <div class="slide-icon">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                            <div class="slide-meta">
+                                <h3>Pembelajaran PPL Terbimbing</h3>
+                            </div>
+                        </div>
+                        <div class="slide-content">
+                            <p>Selama mengikuti tahapan Praktik Pengalaman Lapangan (PPL) Terbimbing dari awal hingga akhir, saya memperoleh banyak pengalaman dan pembelajaran yang sangat berharga sebagai peserta PPG calon guru. Saya belajar bagaimana merencanakan pembelajaran yang baik, menyusun perangkat ajar, mengelola kelas, serta membangun komunikasi yang positif dengan murid. Selain itu, saya juga memahami pentingnya menciptakan suasana belajar yang aktif, menyenangkan, dan berpusat pada murid agar tujuan pembelajaran dapat tercapai secara optimal. Pengalaman ini membantu saya untuk lebih memahami peran dan tanggung jawab seorang guru profesional, khususnya dalam pembelajaran PJOK.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="slide-header">
+                            <div class="slide-icon">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                            <div class="slide-meta">
+                                <h3>Pengalaman & Solusi</h3>
+                            </div>
+                        </div>
+                        <div class="slide-content">
+                            <p>Dalam pelaksanaan PPL Terbimbing, terdapat beberapa pengalaman yang cukup menantang, seperti menghadapi karakter murid yang beragam, menjaga fokus dan kedisiplinan murid saat pembelajaran berlangsung, serta menyesuaikan metode pembelajaran agar semua murid dapat terlibat aktif. Tantangan lainnya adalah mengatur waktu pembelajaran agar seluruh kegiatan dapat terlaksana dengan efektif. Untuk mengatasi hal tersebut, saya berusaha menggunakan pendekatan yang lebih komunikatif dan humoris, memberikan motivasi kepada murid, serta memanfaatkan model dan media pembelajaran yang lebih menarik agar suasana kelas menjadi lebih kondusif dan interaktif.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="slide-header">
+                            <div class="slide-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="slide-meta">
+                                <h3>Umpan Balik & Saran</h3>
+                            </div>
+                        </div>
+                        <div class="slide-content">
+                            <p>Melalui diskusi refleksi akhir, saya juga memperoleh berbagai umpan balik dan saran konstruktif dari dosen pembimbing maupun guru pamong. Saya disarankan untuk lebih meningkatkan pengelolaan kelas, memperkuat variasi metode pembelajaran, serta lebih percaya diri dalam menyampaikan materi. Selain itu, saya juga diarahkan untuk lebih memperhatikan kebutuhan dan karakteristik setiap murid agar pembelajaran menjadi lebih efektif dan inklusif. Umpan balik tersebut menjadi bahan evaluasi dan motivasi bagi saya untuk terus memperbaiki kemampuan mengajar pada tahap PPL selanjutnya, yaitu PPL Mandiri, sehingga saya dapat menjadi guru yang lebih profesional, kreatif, dan adaptif dalam proses pembelajaran.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide-controls">
+                    <button class="slide-btn prev-btn" onclick="changeSlide(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="slide-indicators">
+                        <span class="indicator active" onclick="goToSlide(0)"></span>
+                        <span class="indicator" onclick="goToSlide(1)"></span>
+                        <span class="indicator" onclick="goToSlide(2)"></span>
+                    </div>
+                    <button class="slide-btn next-btn" onclick="changeSlide(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="philosophy">
+        <div class="container">
+            <h2 class="section-title">Filosofi Mengajar</h2>
+            <div class="philosophy-wrapper">
+                <div class="philosophy-slider">
+                    <div class="philosophy-slide active">
+                        <div class="philosophy-content">
+                            <p>Bagi saya, menjadi seorang guru bukan hanya tentang menyampaikan materi kepada murid, tetapi juga tentang bagaimana seorang guru dapat menjadi teman belajar yang mampu memberikan semangat, motivasi, dan rasa nyaman di dalam proses pembelajaran. Saya percaya bahwa setiap murid memiliki kemampuan dan potensi yang berbeda-beda, sehingga guru harus mampu memahami karakter murid dan menciptakan suasana belajar yang menyenangkan. Karena itu, saya ingin menjadi guru yang energik, humoris, dan dekat dengan murid agar pembelajaran tidak terasa membosankan dan murid lebih berani untuk aktif bertanya maupun mencoba hal baru.</p>
+                        </div>
+                    </div>
+                    <div class="philosophy-slide">
+                        <div class="philosophy-content">
+                            <p>Selama proses PPL terbimbing, saya belajar bahwa pembelajaran yang baik adalah pembelajaran yang membuat murid ikut terlibat secara langsung. Dalam pembelajaran PJOK misalnya, murid akan lebih mudah memahami materi ketika mereka diberikan kesempatan untuk praktik, berdiskusi, dan bekerja sama dengan teman-temannya. Hal ini sesuai dengan konsep pembelajaran yang berpusat pada murid, di mana guru berperan sebagai fasilitator yang membantu murid berkembang sesuai kemampuannya. Saya juga percaya bahwa apresiasi sederhana, dukungan, dan komunikasi yang baik dari guru dapat meningkatkan rasa percaya diri murid dalam belajar.</p>
+                        </div>
+                    </div>
+                    <div class="philosophy-slide">
+                        <div class="philosophy-content">
+                            <p>Selain itu, saya meyakini bahwa seorang guru harus mampu merangkul semua murid tanpa membedakan latar belakang maupun kemampuan mereka. Bagi saya, setiap murid berhak mendapatkan perhatian, kesempatan, dan dukungan yang sama dalam belajar. Oleh karena itu, saya ingin membangun pembelajaran yang inklusif, aktif, dan penuh kerja sama agar murid tidak hanya berkembang dalam pengetahuan, tetapi juga dalam sikap dan karakter. Filosofi ini menjadi pegangan saya dalam perjalanan menjadi guru profesional, yaitu menjadi guru yang tidak hanya mengajar, tetapi juga mampu memberikan pengalaman belajar yang bermakna dan menyenangkan bagi murid.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide-controls" style="margin-top: 2rem;">
+                    <button class="slide-btn prev-btn" onclick="changePhilosophySlide(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="slide-indicators philosophy-indicators">
+                        <span class="indicator philosophy-indicator active" onclick="goToPhilosophySlide(0)"></span>
+                        <span class="indicator philosophy-indicator" onclick="goToPhilosophySlide(1)"></span>
+                        <span class="indicator philosophy-indicator" onclick="goToPhilosophySlide(2)"></span>
+                    </div>
+                    <button class="slide-btn next-btn" onclick="changePhilosophySlide(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>peserta.44549@ppg.belajar.id</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+085800692984</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/ahnaf_ananda" target="_blank" class="instagram-link">@ahnaf_ananda</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subjek" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Pesan Anda" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+<!-- Profile Photo Popup -->
+    <div id="profilePopup" class="profile-popup">
+        <div class="profile-popup-content">
+            <span class="close-profile-popup" onclick="closeProfilePopup()">&times;</span>
+            <img src="./profile-latest.jpg" alt="Profile Photo" class="profile-popup-img">
+            <div class="profile-popup-info">
+                <h3>Ananda Ahnaf, S.Pd.</h3>
+                <p>Calon Guru Profesional Pendidikan Jasmani</p>
+                <div class="profile-popup-details">
+                    <div class="popup-detail-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>PPG Calon Guru</span>
+                    </div>
+                    <div class="popup-detail-item">
+                        <i class="fas fa-university"></i>
+                        <span>Universitas Muhammadiyah Surakarta</span>
+                    </div>
+                    <div class="popup-detail-item">
+                        <i class="fas fa-instagram"></i>
+                        <a href="https://www.instagram.com/ahnaf_ananda" target="_blank">@ahnaf_ananda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
